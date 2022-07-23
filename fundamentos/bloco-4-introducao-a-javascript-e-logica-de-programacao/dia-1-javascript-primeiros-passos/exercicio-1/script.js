@@ -38,15 +38,35 @@
 //   console.log(c);
 // }
 
-const number = 0;
+// const number = 0;
 
-if (number > 0) {
-  console.log("Positive");
+// if (number > 0) {
+//   console.log("Positive");
+// }
+
+// if (number < 0) {
+//   console.log("Negative");
+// }
+// if (number === 0) {
+//   console.log("Zero");
+// }
+
+const um = 70;
+const dois = 20;
+const tres = 90;
+
+if (um + dois + tres === 180) {
+  console.log("true");
+} else {
+  console.log("False");
 }
 
-if (number < 0) {
-  console.log("Negative");
+if (um < 0) {
+  console.log("O primeiro numero é Invalido");
 }
-if (number === 0) {
-  console.log("Zero");
+if (dois < 0) {
+  console.log("O Segundo numero é Invalido");
+}
+if (tres < 0) {
+  console.log("O terceiro numero é Invalido");
 }
