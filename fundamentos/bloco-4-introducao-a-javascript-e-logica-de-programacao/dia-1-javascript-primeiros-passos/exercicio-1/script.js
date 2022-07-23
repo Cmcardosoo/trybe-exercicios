@@ -25,15 +25,28 @@
 //   console.log(b);
 // }
 
-const a = 5;
-const b = 6;
-const c = 1;
+// const a = 5;
+// const b = 6;
+// const c = 1;
 
-if ((a > b) & (a > c)) {
-  console.log(a);
+// if ((a > b) & (a > c)) {
+//   console.log(a);
+// }
+// if ((b > a) & (b > c)) {
+//   console.log(b);
+// } else {
+//   console.log(c);
+// }
+
+const number = 0;
+
+if (number > 0) {
+  console.log("Positive");
 }
-if ((b > a) & (b > c)) {
-  console.log(b);
-} else {
-  console.log(c);
+
+if (number < 0) {
+  console.log("Negative");
+}
+if (number === 0) {
+  console.log("Zero");
 }
